@@ -1,6 +1,0 @@
----
-deployment:
-  addon_domains: []
-  main_host:
-    post_deploy_file:
-      - /usr/bin/rsync -avz --delete /home/omjcirnf/repositories/recursos-alumina/regular/media/2medio/matematicas/unidad1/actividad1/dist/ /home/omjcirnf/recursos.alumina.cl/regular/media/2medio/matematicas/unidad1/actividad1/
