@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
+      // ESTA ES LA LÍNEA CLAVE:
+      base: '/regular/media/2medio/matematicas/unidad1/actividad1/', 
+      
       server: {
         port: 3000,
         host: '0.0.0.0',
